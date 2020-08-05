@@ -5,6 +5,8 @@ image: /assets/image.jpg
 
 ### Welcome!
 
+Try this link on for size [[Consistency is key]]
+
 This is your first note. You'll find it in the [`notes/`](https://github.com/maximevaillancourt/digital-garden-jekyll-template/tree/master/_notes) directory.
 
 ### Link syntax
