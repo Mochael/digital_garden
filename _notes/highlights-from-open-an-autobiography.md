@@ -1,5 +1,5 @@
 ---
-title: highlights from Open an Autobiography
+title: highlights from Open an Autobiography 🌱
 ---
 
 - Tennis is quite a mentally taxing game by itself, but mixing in the pressure from Andre Agassi's personal life (like his crazy father), I have no idea how he was able to become so great. I was on the edge of my seat when he was giving play-by-plays of some of his most famous matches, because I didn't actually know who won. It was also incredible to learn about what he was thinking and feeling during these matches. Like for example how he had to get cortisol shots in his back hours before a match when he was older. We put a lot of pressure on athletes to just go out and perform, but we don't realize the mental and physical hurdles that these athletes have to overcome off the court.

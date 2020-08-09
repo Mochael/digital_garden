@@ -1,5 +1,5 @@
 ---
-title: highlights from Salt, Fat, Acid, Heat
+title: highlights from Salt, Fat, Acid, Heat 🌱
 ---
 
 ## SALT

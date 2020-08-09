@@ -1,5 +1,5 @@
 ---
-title: highlights from Hacking Darwin
+title: highlights from Hacking Darwin 🌱
 ---
 
 - It was fascinating to read this book and learn about the future of personalized medicine and recent innovations in biotechnology and genetics. I had no idea that biotechnology had come so far.

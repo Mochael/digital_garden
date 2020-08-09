@@ -1,5 +1,5 @@
 ---
-title: highlights from Enlightenment Now
+title: highlights from Enlightenment Now 🌱
 ---
 
 - Enlighenment Now clearly explained many controversial topics as well as dispelled many misconceptions I had about the state of modern society. I feel much more knowledgable about what's going on in today's world and also more confident in the ability of our society to combat the major problems that the world faces.

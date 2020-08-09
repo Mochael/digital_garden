@@ -1,5 +1,5 @@
 ---
-title: highlights from Thinking Fast and Slow
+title: highlights from Thinking Fast and Slow 🌱
 ---
 
 - This book made me more conscious of the way my mind functions to make decisions. While reading this book, I would reflect on times when I had made silly mistakes by blindly following my system 1 (instinct based decision making).

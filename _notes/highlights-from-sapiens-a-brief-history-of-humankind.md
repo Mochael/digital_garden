@@ -1,5 +1,5 @@
 ---
-title: Sapiens a Brief History of Humankind
+title: Sapiens a Brief History of Humankind 🌱
 ---
 
 - I can confidently say that this is my favorite book. Yuval Noah Harari gives a very informational, yet compelling recount of human history, detailing the most influential innovations and where they immerged.

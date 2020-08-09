@@ -1,5 +1,5 @@
 ---
-title: highlights from Range Why Generalists Triumph in a Specialized World
+title: highlights from Range Why Generalists Triumph in a Specialized World 🌱
 ---
 
 # Highlights from Range: Why Generalists Triumph in a Specialized World

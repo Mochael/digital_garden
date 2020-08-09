@@ -1,5 +1,5 @@
 ---
-title: highlights from Leonardo da Vinci
+title: highlights from Leonardo da Vinci 🌱
 ---
 
 - Before I read this book, I only knew about the legend of Leonardo Da Vinci, the quintessential “Renaissance Man” and creator of some of the most famous art pieces in history. It was difficult to conceptualize him as an actual human being.
