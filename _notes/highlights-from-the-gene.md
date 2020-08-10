@@ -1,5 +1,6 @@
 ---
-title: highlights from The Gene 🌱
+title: highlights from The Gene 
+tree_state: 🌱
 ---
 
 - DNA (deoxyribonucleic acid)- is just a collection of base pairs (ATGC). Any combination is referred to as DNA. A DNA molecule is in the shape of a double helix

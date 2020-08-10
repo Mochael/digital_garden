@@ -1,5 +1,6 @@
 ---
-title: highlights from Stumbling on Happiness 🌱
+title: highlights from Stumbling on Happiness 
+tree_state: 🌱
 ---
 
 - We usually judge things in the future based on how we feel now. Try to be aware of this and realize that how you feel in the future is different than how you feel now.

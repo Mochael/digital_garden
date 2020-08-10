@@ -1,5 +1,6 @@
 ---
-title: highlights from Trick Mirror 🌱
+title: highlights from Trick Mirror 
+tree_state: 🌱
 ---
 
 - Although things like the Me Too movement are meant to unite women together and promote a good cause something like that can take the significance and individually out of people’s stories and make the issue not seem as real or interesting. It’s the idea of grouping people who have had a bad date and who have been raped into the same words, people may think this is the case and it turns people off. Especially in today’s society when it seems like many people express solidarity just as an ego boost and as a performance to make yourself likeable.

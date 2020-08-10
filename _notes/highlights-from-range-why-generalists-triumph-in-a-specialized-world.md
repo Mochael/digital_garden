@@ -1,5 +1,6 @@
 ---
-title: highlights from Range Why Generalists Triumph in a Specialized World 🌱
+title: highlights from Range Why Generalists Triumph in a Specialized World 
+tree_state: 🌱
 ---
 
 # Highlights from Range: Why Generalists Triumph in a Specialized World

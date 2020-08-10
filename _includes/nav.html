@@ -119,11 +119,16 @@
 
       ul = document.getElementById("hiddenFileNames");
       li = ul.getElementsByTagName('li');
+      console.log("typed search");
       for (i = 0; i < li.length; i++) {
         //a = li[i].getElementsByTagName("a")[0];
-        txtValue = li[i].textContent || li[i].innerText;
-        if(txtValue.includes(input)){
-          console.log(input, txtValue);
+        //txtValue = li[i].textContent || li[i].innerText;
+        txtValue =  li[i].innerHTML.toLowerCase();
+        //console.log(li[i].innerText);
+        //console.log(txtValue);
+        //console.log("input", input);
+        //if(txtValue.includes(input)){
+        if(txtValue.indexOf(input) > -1){
           li[i].style.display = "";
         }
         else{

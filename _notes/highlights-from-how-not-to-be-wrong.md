@@ -1,5 +1,6 @@
 ---
-title: highlights from How Not to be Wrong 🌱
+title: highlights from How Not to be Wrong 
+tree_state: 🌱
 ---
 
 - This book has had a pretty significant influence on my interests overall, what I chose study in college, and my career path, because it gave me a new, refreshing perspective of math. Before reading this book I thought that math was pretty boring, and I didn't have much of an interest in applying math to situations in my daily life or pursuing a career focused on building mathematical models.
