@@ -8,7 +8,7 @@ A credible interval is the Bayesian equivalent of the confidence interval where 
 - In confidence intervals we treat the parameter as a fixed value and the bounds as random variables
 - In credible intervals, the estimated parameter is treated as a random variable while the bounds are considered fixed
 
-Any random variable following the posterior distribution $$\pi(\theta|y_1,\ldots, y_n)$$ will fall in the credible interval with probability $$1-\alpha$$
+Any random variable following the posterior distribution $\pi(\theta \mid y_1,\ldots, y_n)$ will fall in the credible interval with probability $1-\alpha$
 
 $$\int_a^b \pi(\theta | y_1,\ldots, y_n) d \theta=1-\alpha \Longrightarrow P\left(a \leq \theta \leq b | y_{1}, \ldots, y_{n}\right)=1-\alpha$$
 
