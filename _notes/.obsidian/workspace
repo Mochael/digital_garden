@@ -4,13 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "11ecbdc40c6a719f",
+        "id": "10fb8e4ca7b9bf7d",
         "type": "leaf",
+        "dimension": 46.596066565809366,
         "active": true,
         "state": {
-          "type": "empty",
-          "state": {}
-        }
+          "type": "markdown",
+          "state": {
+            "file": "Why are Conjugate Priors Useful.md",
+            "mode": "source"
+          }
+        },
+        "group": "04543d4cc05a0d9e"
+      },
+      {
+        "id": "b7bfd06f49811881",
+        "type": "leaf",
+        "dimension": 53.403933434190634,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Why are Conjugate Priors Useful.md",
+            "mode": "preview"
+          }
+        },
+        "group": "04543d4cc05a0d9e"
       }
     ],
     "direction": "vertical"
@@ -43,7 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 178
   },
   "right": {
     "id": "13d5ce48c60abc2c",
@@ -58,6 +76,16 @@
             "type": "leaf",
             "state": {
               "type": "backlink",
+              "state": {
+                "file": "Why are Conjugate Priors Useful.md"
+              }
+            }
+          },
+          {
+            "id": "37900ca03a234c78",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
               "state": {}
             }
           }
@@ -68,5 +96,11 @@
     "width": 300,
     "collapsed": true
   },
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "Why are Conjugate Priors Useful.md",
+    "Docker (containerization) vs Vagrant (virtual machine).md",
+    "Computational Perception Highlights.md",
+    "What is a Credible Interval.md",
+    "How to Take a Weighted Average.md"
+  ]
 }
