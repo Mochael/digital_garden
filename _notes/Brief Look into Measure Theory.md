@@ -31,7 +31,7 @@ We can say a function mapping is measurable if the following condition holds:
 
 ### Defining the Lebesgue Integral
 
-For simple (step, staircase, ...) functions the Lebesgue Integral is defined as follows (where $$\chi_A$$ is some function mapping $$x$$ to the real numbers and $$ I(\chi_A) = \mu(A)$$:
+For simple (step, staircase, ...) functions the Lebesgue Integral is defined as follows (where $\chi_A$ is some function mapping $x$ to the real numbers and $I(\chi_A) = \mu(A)$:
 
 ![monolithic](../search_pics/Brief%20Look%20into%20Measure%20Theory/Screen_Shot_2020-04-12_at_10.52.51_PM.png)
 
@@ -39,4 +39,4 @@ Generally, it is defined as follows:
 
 ![monolithic](../search_pics/Brief%20Look%20into%20Measure%20Theory/Screen_Shot_2020-04-12_at_9.37.49_PM.png)
 
-The integral of a measurable function $$f$$ is the supremum of the set of all integral values for step functions that lie below the function $$f$$.
+The integral of a measurable function $f$ is the supremum of the set of all integral values for step functions that lie below the function $f$.
