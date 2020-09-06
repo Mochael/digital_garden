@@ -32,11 +32,13 @@ class BidirectionalLinksGenerator < Jekyll::Generator
         id: note_id_from_note(current_note),
         path: current_note.url,
         label: current_note.data['title'],
-      } unless current_note.path.include?('_notes/index.html')
+    } unless current_note.path.include?('_notes/obsidian.css')
 
 			# Edges: Jekyll
       current_note.data['backlinks'] = notes_linking_to_current_note
 
+      puts current_note.data['title']
+      puts notes_linking_to_current_note.inspect
       # Edges: Graph
       notes_linking_to_current_note.each do |n|
         graph_edges << {

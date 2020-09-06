@@ -5,7 +5,7 @@ tree_state: 🌱
 
 ## Monolithic Architecture
 
-![monolithic](../search_pics/Microservices%20vs%20Monolithic%20Architecture/monolithic.png)
+![monolithic](../search_pics/Microservices_vs_Monolithic_Architecture/monolithic.png)
 
 - Applications were built modularly, but deployed in a large single applications.
 - If you needed to make a change, you would have to test the entire application after the change to see if it worked before redeploying.
@@ -13,7 +13,7 @@ tree_state: 🌱
 
 ## Microservices
 
-![microservices](../search_pics/Microservices%20vs%20Monolithic%20Architecture/microservices.png)
+![microservices](../search_pics/Microservices_vs_Monolithic_Architecture/microservices.png)
 
 - The entire application is split into multiple different sub-applications called "microservices" which are each deployed separately on their own servers.
 - The "microservices" communicate with each other through REST APIs, to allow the application to run like normal. For example, a "microservice" could be made for a shopping catalogue application and another for a user's view application. The user's view application would communicate with the shopping catalogue application to determine and show the relevant items in the shopping catalogue.

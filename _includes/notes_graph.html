@@ -93,14 +93,13 @@
           .id((d) => d.id)
           .distance(150)
       )
-      .force("center", d3.forceCenter(width / 2, height / 2))
+      .force("center", d3.forceCenter(width / 2, height / 2)) // I think this is where I should set center to be the active node
       .stop();
 
     const g = svg.append("g");
     let link = g.append("g").attr("class", "links").selectAll(".link");
     let node = g.append("g").attr("class", "nodes").selectAll(".node");
     let text = g.append("g").attr("class", "text").selectAll(".text");
-    
 
     const zoomActions = () => {
       const scale = d3.event.transform;
@@ -119,6 +118,7 @@
 
     const ticked = () => {
       node.attr("cx", (d) => d.x).attr("cy", (d) => d.y);
+
       text
         .attr("x", (d) => d.x)
         .attr("y", (d) => d.y - FONT_BASELINE / zoomLevel);
@@ -151,6 +151,11 @@
       node.attr("active", (d) => isCurrentPath(d.path) ? true : null);
       text.attr("active", (d) => isCurrentPath(d.path) ? true : null);
 
+      // console.log(node.attr('active'));
+      // if(node.attr('active')){
+      //   console.log(d3.selectAll(".node[active=True]").attr('cx'));
+      // }
+
       text = text.data(nodesData, (d) => d.label);
       text.exit().remove();
       text = text
@@ -182,6 +187,7 @@
       //.translateExtent([[0,0], [width, height]])
       //.extent([[0, 0], [width, height]])
       .on("zoom", zoomActions);
+
 
     zoomHandler(svg);
     restart();
