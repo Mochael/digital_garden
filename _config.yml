@@ -1,5 +1,13 @@
 title:               My digital garden
 include:             ['_pages']
+<<<<<<< HEAD
+=======
+exclude:             ['_includes/notes_graph.json']
+# You may need to change the base URL depending on your deploy configuration.
+# Specifically, when using GitHub Pages, the baseurl should point to where GitHub
+# Pages deploys your repository (which is usually the repository name).
+baseurl:             /
+>>>>>>> upstream/master
 
 permalink:           pretty
 relative_permalinks: false
@@ -14,7 +22,11 @@ sass:
 collections:
   notes:
     output: true
+<<<<<<< HEAD
     permalink: /:path
+=======
+    permalink: /:slug
+>>>>>>> upstream/master
 
 defaults:
   - scope:
