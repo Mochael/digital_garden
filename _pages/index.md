@@ -20,6 +20,6 @@ I will be writing up the notes for this page in markdown on my computer with [Ob
 </style>
 
 
-<p>Here are all the notes in this garden, along with their links, visualized as a graph (zoom out if you don't see any points).</p>
+<p>Here are all the notes in this garden, along with their links, visualized as a graph.</p>
 
 {% include notes_graph.html %}
