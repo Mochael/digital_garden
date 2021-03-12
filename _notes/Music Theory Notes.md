@@ -6,23 +6,23 @@ tree_state: 🌱
 ## Clefs
 The base and treble clef are basically continuations of one another, but just separated but a middle C.
 - so bottom of treble is E and top of base is A
-![[Screen Shot 2020-11-29 at 10.16.48 PM.png]]
+![Screen Shot 2020-11-29 at 10.16.48 PM.png](Screen Shot 2020-11-29 at 10.16.48 PM.png)
 - As you go higher up you cycle forwards through alphabet A-G, so as you go down you cycle backwards through alphabet
 
 ## Time Signature
 - Bottom number displays which type of note (note length) we use to count for that measure (this means which note gets the beat)
 - Top number displays how many of that note we have in each measure
-![[Screen Shot 2020-11-29 at 10.25.57 PM.png]]
+![](Screen Shot 2020-11-29 at 10.25.57 PM.png)
 - In this image we see 6/8, so the eighth note is what we use to count beats in this measure, and we allow the equivalent of 6 eighth notes per measure.
 	- Often we change the time signature to fit the tempo of the underlying piece, so for example songs with much quicker tempos may opt to use a 3/2 time signature because the music piece may be dominated by very fast half-notes.
 	- If we keep the same tempo in a piece but switch from a measure with a 4/4 time signature to a 6/8 time signature, then we will spend different amounts of time in each measure. In the 1st measure we would stay there for 4 quarter note beats, but in the 2nd measure after the switch we would stay there for 6 eighth note beats (or 3 quarter note beats)
-![[Screen Shot 2020-11-29 at 10.47.25 PM.png]]
+![Screen Shot 2020-11-29 at 10.47.25 PM.png](Screen Shot 2020-11-29 at 10.47.25 PM.png)
 - When counting measures that aren't as straight forward you can count them in terms of quarter/dotted-quarter notes. The above example could be counted as: 1+2,2+2,3+2,4+....1 repeat
 
 # Scales
 ## Major Scale
 - A major scale is always constructed via the following formula after starting from the root (W is a whole step and h is a half step):
-![[Screen Shot 2020-12-01 at 9.07.58 PM.png]]
+![Screen Shot 2020-12-01 at 9.07.58 PM.png](Screen Shot 2020-12-01 at 9.07.58 PM.png)
 Here is the E Flat major scale:
 ![[Screen Shot 2020-12-01 at 9.09.39 PM.png]]
 
