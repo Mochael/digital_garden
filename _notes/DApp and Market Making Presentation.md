@@ -5,14 +5,14 @@ marp: true
 ---
 
 ## Part 1: Crypto DApps
-![width:20cm](cryptokitties.png)
+![width:20cm](../search_pics/cryptokitties.png)
 
 ---
 
 ## Cryptocurrency apps
 - https://www.stateofthedapps.com
 
-![width:7cm](travis_scott.png)
+![width:7cm](../search_pics/travis_scott.png)
 
 ---
 ### Etherium DAPPS
@@ -45,22 +45,21 @@ Bitcoin credit cards
 ---
 
 ## Part 2: How Does a Market Work
-![width:10cm](binance.png)
 
 ---
 
 ##  Bid and Ask Price Plot
-![tsla.png](tsla.png)
+![tsla.png](../search_pics/tsla.png)
 
 ---
 
 ##  Bid and Ask Price Plot
-![width:7cm](lossporn.png)
+![width:7cm](../search_pics/lossporn.png)
 
 ---
 
 ##  Bid and Ask Price Plot
-![width:20cm](bid_ask.png)
+![width:20cm](../search_pics/bid_ask.png)
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Blockchain and Market Making Presentation
+title: Blockchain Presentation
 tree_state: 🌱
 marp: true
 ---
@@ -90,11 +90,11 @@ Hot Wallet
 ---
 
 ## Mining Hardware
-![bitcoinhardwareovertime.png](bitcoinhardwareovertime.png)
+![bitcoinhardwareovertime.png](../search_pics/bitcoinhardwareovertime.png)
 
 ---
 ## Mining Hardware
-![comparetablehardware.png](comparetablehardware.png)
+![comparetablehardware.png](../search_pics/comparetablehardware.png)
 - Introduction of ASICs can yield up to 100 billion times the capability of personal machines for bitcoin mining
 - Cloud mining is gaining popularity
 
@@ -122,11 +122,11 @@ Need to take on 51% stake in a cryptocurrency to attack the network, but why wou
 - https://www.stateofthedapps.com
 ### Etherium DAPPS
 - buying cryptokitties
-![width:20cm](cryptokitties.png)
+![width:20cm](../search_pics/cryptokitties.png)
 
 --- 
 ### Etherium DAPPS
-![width:7cm](travis_scott.png)
+![width:7cm](../search_pics/travis_scott.png)
 
 ---
 ### Etherium DAPPS
@@ -191,44 +191,3 @@ Firms buying bitcoin:
 - Options in bitcoin
 - Bitcoin credit cards (my dad is getting one)
 - companies are buying bitcoin
-
----
-
-## Part 2: How Does a Market Work
-![width:10cm](binance.png)
-
----
-
-##  Bid and Ask Price Plot
-![tsla.png](tsla.png)
-
----
-
-##  Bid and Ask Price Plot
-![width:7cm](lossporn.png)
-
----
-
-##  Bid and Ask Price Plot
-![width:20cm](bid_ask.png)
-
----
-
-## There are 2 types of orders
-- limit order
-- market order
----
-
-## Why can I execute trade right away
-- market makers like Virtu can arbitrage by placing orders on both sides of market
-- also they are paid by exchanges to provide liquidity (meaning they are paid to put their limit orders)
-
----
-
-
-## Why is robinhood trading free
-- If you place limit order you are being paid to place your order by exchange, so you get to place it for free on robinhood
-- if you place market order, they sell that order to the market makers:
-	- in return marker makers get an order crossing the spread as well as information quicker than anyone else what direcation the order is coming from
-- Slippage: difference in best market price and what you actually pay:
-	- delay in trade execution
