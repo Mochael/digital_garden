@@ -3,9 +3,10 @@ title: What is the hypergeometric distribution
 tree_state: 🌱
 ---
 
-Suppose a population consists of $N$ items, $k$ of which are successes. And a random sample drawn from that population consists of $n$ items, $x$ of which are successes. Then the hypergeometric probability is: 
+Suppose a population consists of $N$ items, $k$ of which are successes. And a random sample drawn from that population consists of $n$ items, $x$ of which are successes. Then the hypergeometric probability is:
 
-$$P(x \mid N, n, k) = \frac{{{k} \choose {x}} {{N-k} \choose {n-x}}}{{{N} \choose {n}}}$$
+$$P(x \mid N, n, k) = \frac{{\binom{k}{x}} {\binom{N-k}{n-x}}}{{\binom{N}{n}}}$$
+
 
 - The number of combinations between:
 	- Ways to choose x successes from k successes
