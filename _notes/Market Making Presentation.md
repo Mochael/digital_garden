@@ -1,50 +1,10 @@
 ---
-title: DApp and Market Making Presentation
+title: Market Making Presentation
 tree_state: 🌱
 marp: true
 ---
 
-## Part 1: Crypto DApps
-![width:20cm](../search_pics/cryptokitties.png)
-
----
-
-## Cryptocurrency apps
-- https://www.stateofthedapps.com
-
-![width:7cm](../search_pics/travis_scott.png)
-
----
-### Etherium DAPPS
-- Robbie on SuperRare
-	- https://superrare.co/artwork/ai-generated-nude-portrait-1-1
-- non-fungible token (_NFT_)
-	- https://rarible.com
-	- https://godsunchained.com
-		- like hearthstone but a lot of real money
-- https://www.maecenas.co
-
----
-
-## Other Cryptos
-- Tether (USDT)
-	- tracks price of the US dollar
-- STORJ
-	- Decentralized Cloud Storage where you are paid in cryptocurrency to offer up some of your hard drive space for storage
-
----
-
-## Random Bitcoin Facts
-Companies buying bitcoin:
-- MicroStrategy buys $650 million in Dec 2020
-- Square invests in Oct 2020 to buy about $50 million
-
-Options in bitcoin
-Bitcoin credit cards
-
----
-
-## Part 2: How Does a Market Work
+## How Does a Market Work
 
 ---
 
@@ -66,6 +26,7 @@ Bitcoin credit cards
 ## There are 2 types of orders
 - limit order
 - market order
+
 ---
 
 ## Why can I execute trade right away

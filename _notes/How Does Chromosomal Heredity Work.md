@@ -1,5 +1,5 @@
 ---
-title: How Does Chromosomal Heredity
+title: How Does Chromosomal Heredity Work
 tree_state: 🌱
 ---
 

@@ -5,7 +5,7 @@ marp: true
 ---
 
 ## How does Blockchain Work
-- Everybody should've watched the video!!!
+- If you want a background in blockchain then you should definitely watch this 3 blue 1 brown video!!
 https://www.youtube.com/watch?v=bBC-nXj3Ng4
 
 ---
@@ -33,7 +33,8 @@ Full nodes- computers that store a complete copy of the blockchain and is able t
 - You don't get any money from running a full node.
 - There is increased security for a full node and it will always have the latest and greatest information relating to information on bitcoin’s blockchain (useful for wanting to know the price of bitcoin)
 - Full nodes also track UTXO (Unspent transaction output) set which is the amount of money each public address has available to spend
-  - When a miner receives info about a new transaction, it checks whether all of the inputs of an incoming transaction exist in the UTXO set to see if it's valid.
+	- When a miner receives info about a new transaction, it checks whether all of the inputs of an incoming transaction exist in the UTXO set to see if it's valid.
+
 ---
 
 ## What if Miners Mine a Block at the Same Time?
@@ -41,7 +42,9 @@ Full nodes- computers that store a complete copy of the blockchain and is able t
 - Some miners and full nodes are sent block A quicker than B and therefore reject B, while others are sent block B first. Both are completely valid.
 - Nodes that are sent block A first will try to find the next block based on using the hash of A, while the other miners will use the hash of B.
 - Since the "true" chain is the longest one, if the group hashing the next block based on A finds a hash first, this will become the new truth in the network.
+
 ---
+
 ## Wallets
 Hot Wallet
 	- Online wallets are also known as “hot” wallets. Hot wallets are wallets that run on internet-connected devices like computers, phones, or tablets.
@@ -50,6 +53,7 @@ Hot Wallet
 	- local on your device
 
 ---
+
 ## What happens when 21 million run out
 - The bitcoin halving
 	- The first rule of the Bitcoin system is that there can be a maximum of 21,000,000 Bitcoins generated. This number has still not been achieved, and according to current trends, it is thought that this number will be reached by the year 2140.
@@ -58,11 +62,13 @@ Hot Wallet
 - Miners return is way higher
 
 ---
+
 ## Hash Attack
 - Amount that miners can mine is enforced so that the amount of bitcoin given out is constant
 - If I'm a miner why wouldn't I just come in and mine a lot when the the rate of mining is low which drives up the hash rate, making the algorithm increase the difficulty to mine a block
 
 ---
+
 ## Hash Attack
 - For Bitcoin the difficulty is adjusted every 2016 blocks (every 2 weeks approximately) so that the average time between each block remains 10 minutes.
 - Other coins use smaller time scales and numbers of blocks to adjust on (smaller time scales mean you can have more transactions cause you have more blocks)
@@ -77,6 +83,7 @@ Hot Wallet
 - Microtransactions
 	- what if you have a few micro transactions are the amount of transaction fees?
 	- You can real time update on a contract to the network a bunch of incremental payments every time a service is performanced and then actually send the total of payments at the end of the day
+
 ---
 
 ## Anonymity
@@ -93,18 +100,21 @@ Hot Wallet
 ![bitcoinhardwareovertime.png](../search_pics/bitcoinhardwareovertime.png)
 
 ---
+
 ## Mining Hardware
 ![comparetablehardware.png](../search_pics/comparetablehardware.png)
 - Introduction of ASICs can yield up to 100 billion times the capability of personal machines for bitcoin mining
 - Cloud mining is gaining popularity
 
 ---
+
 ## What are different variations of the algorithm
 - **proof-of-work**: need to find a specific value for a variable that will produce a HASH beginning with specific number of zeros.
 - Etherium switched algorithm from proof of work to **proof of stake**
 	- for **proof of work**, miners need a ton of energy. One Bitcoin transaction requires the same amount of electricity as powering 1.57 American households for one day. Bitcoin transactions may consume as much electricity as Denmark by 2020. (https://blockgeeks.com/bitcoin-transactions/)
 
 ---
+
 ## Proof of Stake
 - Replaces **miners** with **validators**. Validators will have to lock up some of their coins as a stake (costs 32 ETH to run a validator node)
 - Validators are randomly selected to propose a block.
@@ -125,10 +135,12 @@ Need to take on 51% stake in a cryptocurrency to attack the network, but why wou
 ![width:20cm](../search_pics/cryptokitties.png)
 
 --- 
+
 ### Etherium DAPPS
 ![width:7cm](../search_pics/travis_scott.png)
 
 ---
+
 ### Etherium DAPPS
 - Robbie on SuperRare
 	- https://superrare.co/artwork/ai-generated-nude-portrait-1-1
@@ -154,7 +166,8 @@ SWIFT (Society for Worldwide Interbank Financial Telecommunication)
 	- **Validators** are computers around the world that share a ledger of transactions
 	- **Gateways** are created by large financial institutions and act as entry points into the ripple network
 	- **IOUs** are tokens that can be stored in your ripple wallet. They represent debt, so if you issue one to someone then you owe them the corresponding amount of money.
-		- takes form like USD.Bitstamp or Oil.BankOfAmerica (<the currency/asset>< who issues the IOU >)
+		- takes form like USD.Bitstamp or Oil.BankOfAmerica (<the currency/asset>.< who issues the IOU >)
+
 ---
 
 ## What is XRP
@@ -166,6 +179,7 @@ SWIFT (Society for Worldwide Interbank Financial Telecommunication)
 -   Each validator maintains a unique node list (UNL) of trusted peers, which is a set of other servers that s queries when determining consensus.
 
 ---
+
 ## Ripple Consensus Algorithm
 The XRP Ledger uses a “Byzantine Consensus Algorithm”:
 	1.   Every validator takes all valid transactions it has seen prior to the beginning of the consensus round that have not already been applied and makes them public in the form of a list known as the “candidate set”.

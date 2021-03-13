@@ -5,7 +5,7 @@ tree_state: 🌱
 
 ## Definition
 
-If $Y_1,\ldots, Y_n$ are iid samples drawn from a distribution with parameter $\theta$ then a statistic $U = U(Y_1,\ldots, Y_n)$ is said to be sufficient for $\theta$ iff the conditional distribution of the data $Y_1,\ldots, Y_n|U$ does not depend on the parameter $\theta$.
+If $Y_1,\ldots, Y_n$ are iid samples drawn from a distribution with parameter $\theta$ then a statistic $U = U(Y_1,\ldots, Y_n)$ is said to be sufficient for $\theta$ iff the conditional distribution of the data $Y_1,\ldots, Y_n \mid U$ does not depend on the parameter $\theta$.
 
 ## Method to Find Them
 
@@ -35,4 +35,4 @@ then $T$ is a minimal sufficient statistic.
 
 Let $\hat{\theta}$ be an unbiased estimator for $\theta$ such that $V(\hat{\theta})<\infty$. If $U$ is a sufficient statistic for $\theta$, then for all $\theta$: 
 
-$$E\left(E(\hat{\theta} | U)\right)=\theta \text { and } V\left(E(\hat{\theta} | U)\right) \leq V(\hat{\theta})$$
+$$E\left(E(\hat{\theta} \mid U)\right)=\theta \text { and } V\left(E(\hat{\theta} \mid U)\right) \leq V(\hat{\theta})$$
