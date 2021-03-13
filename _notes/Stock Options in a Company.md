@@ -41,9 +41,3 @@ Incentive Stock Option
 
 Non qualified stock option
 - vesting can be taxed
-
-
-
-
-On creation of phase 1 company all employees get equity that vests over 4 years (if you have 1 been at Foundry for 1 year, otherwise you need to wait 1 year for it to vest)
-- 
