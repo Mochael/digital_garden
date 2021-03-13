@@ -96,9 +96,7 @@
 
 <div>
     <a class="internal-link" href="/"><b>{{ site.title }}</b></a>
-
-    <input id='searchbar' style="display: inline-block; float: right;" type="text" placeholder="Search Notes Files" onkeyup="searchFiles()" onclick="activateNotesLinks()">
-    <button id='cancelSearch' onclick="hideNotesLinks()" style="display: inline-block; float: right;">Cancel Search</button>
+    <input id='searchbar' style="display: block; float: right;" type="text" placeholder="Search Notes Files" onkeyup="searchFiles()" onclick="activateNotesLinks()" onblur="hideNotesLinks()">
 </div>
 
 
@@ -106,36 +104,37 @@
 <script>
   function activateNotesLinks() {
     document.getElementById('hiddenFileNames').style.display = "block";
-    document.getElementById('cancelSearch').style.display = "block";
 }
 
   function hideNotesLinks(){
-    document.getElementById('hiddenFileNames').style.display = "none";
-    //document.getElementById('cancelSearch').style.display = "none";
+    setTimeout(function() {
+      document.getElementById('hiddenFileNames').style.display = "none";
+    }, 100);
   }
 
-    function searchFiles() {
-      input = document.getElementById('searchbar').value.toLowerCase();
+  function searchFiles() {
+    input = document.getElementById('searchbar').value.toLowerCase();
 
-      ul = document.getElementById("hiddenFileNames");
-      li = ul.getElementsByTagName('li');
-      console.log("typed search");
-      for (i = 0; i < li.length; i++) {
-        //a = li[i].getElementsByTagName("a")[0];
-        //txtValue = li[i].textContent || li[i].innerText;
-        txtValue =  li[i].innerHTML.toLowerCase();
-        //console.log(li[i].innerText);
-        //console.log(txtValue);
-        //console.log("input", input);
-        //if(txtValue.includes(input)){
-        if(txtValue.indexOf(input) > -1){
-          li[i].style.display = "";
-        }
-        else{
-          li[i].style.display = "none";
-        }
+    ul = document.getElementById("hiddenFileNames");
+    li = ul.getElementsByTagName('li');
+    console.log("typed search");
+    for (i = 0; i < li.length; i++) {
+      txtValue =  li[i].innerHTML.toLowerCase();
+      console.log(txtValue)
+      if(txtValue.indexOf(input) > -1){
+        li[i].style.display = "";
       }
-}
+      else{
+        li[i].style.display = "none";
+      }
+    }
+  }
+
+  function getNoteYAML(note_path){
+    fs.readFile(note_path, 'utf8', (err, data) => {
+      console.log(data)
+    });
+  }
 </script>
 
 <ul id='hiddenFileNames' style=" text-align: center; list-style-type: none;">
@@ -143,7 +142,7 @@
   {% for note in site.notes %}
   {% assign size = note.path | size %}
   <li>
-    <a href="{{ note.url }}" class="internal-link">{{ note.path | slice: 7, size}}</a>
+    <a href="{{ note.url }}" class="internal-link">{{ note.title}} {{note.tree_state}}</a>
   </li>
   {% endfor %}
 </ul>

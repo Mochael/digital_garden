@@ -1,3 +1,8 @@
+---
+title: Stock Options in a Company
+tree_state: 🌱
+---
+
 # Stock Options in a Company
 
 ## Carta Blogs

@@ -1,3 +1,8 @@
+---
+title: Using nonparametric models in doubly robust estimator
+tree_state: 🌱
+---
+
 However, Kang & Schafer (2007) demonstrated via simulation that the usual doubly robust estimator can be severely biased when both models are misspecified, even if they are nearly correct, and that bias is especially problematic when some estimated propensity scores are close to zero, yielding very large weights. 
 
 
