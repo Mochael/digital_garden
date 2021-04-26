@@ -11,3 +11,8 @@ Client side rendering is where the server sends javascript to the client which t
 2. Then client has to run the javascript on their computer
 3. the javascript will probably make API calls back to your server to fetch the dynamic content which will then have to be sent back to the client
 4. also people's local computers are generally slower than a server anyways
+
+
+
+Ben Awad's advice: if we want the content of a page to be searchable by google, then we should server side render the page, otherwise it places a large load on our server and can be slow.
+- apparently google's search engine optimization can read javascript though, so not sure if rendering client vs server side would change anything.

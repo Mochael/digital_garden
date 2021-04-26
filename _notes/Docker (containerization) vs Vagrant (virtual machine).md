@@ -22,3 +22,4 @@ tree_state: 🌱
 - You then run this "docker image" as something called a "container", and you can run as many of these "containers" as you want on a single virtual machine (as long as you don't run out of memory).
 - You store your "docker image" on essentially a docker version of Github (like Docker Hub) and now any machine with Docker can run your applicatino using the "docker image".
 - Amazon's "ECS" (EC2 (elastic compute cloud) Container Service) platform can manage your containers for you.
+- Containers reuse the kernel the hosting OS. Most of the containers available out there are based on Linux, so they need to have access a Linux kernel for them to run. Therefore, if you're on Windows and want to run one you would need to install a Linux VM and run the containers in the VM.
