@@ -18,5 +18,8 @@ _includes/notes_graph.json
 _notes/obsidian.css
 _notes/.obsidian
 
+# Zettlr config
+_notes/.ztr-directory
+
 # Jeckyll Stuff
 vendor/
