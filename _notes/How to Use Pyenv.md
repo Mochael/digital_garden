@@ -3,6 +3,20 @@ title: How to Use Pyenv
 tree_state: 🌱
 ---
 
+# How to install
+1.  `brew install pyenv`
+2.  `brew install pyenv-virtualenv`
+3. Add the following  to your .zshrc file
+```
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+if command -v pyenv 1>/dev/null 2>&1; then
+ eval "$(pyenv init --path)"
+fi
+
+eval "$(pyenv virtualenv-init -)"
+```
+
 # What are the General Commands
 - pyenv is a fantastic python package manager
 
@@ -28,3 +42,4 @@ Now this directory will have it's own unique python packages and information, so
 # How to delete a virtual environment
 1. Navigate to the .pyenv folder in your root directory (you can see it if you use `ls -a`) and then go into versions
 2. Then `rm -rf <environment_name>` for the environment you want to delete
+3. Also go into`~/.pyenv/versions/<version_used_for_environment>/envs` and delete directory for that environment

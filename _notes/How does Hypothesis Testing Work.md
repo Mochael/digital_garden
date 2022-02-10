@@ -32,7 +32,7 @@ $$p(x_1,...x_n) = \max_{\theta^* \in \Theta_0} P(T(X_1,...X_n) \geq T(x_1,...,x_
 
 $$\max_{\theta^* \in \Theta_0} P(T(X_1,...X_n) \geq c \text{ if } \theta = \theta^*) \text{ is a decreasing function of } c$$
 
-Let $$c_{\alpha}$$ be the cutoff at which we reject the null for an $$\alpha$$-level test, i.e. reject the null if $$T(X_1,...X_n) \geq c_{\alpha}$$ and $$\max_{\theta^* \in \Theta_0} P(T(X_1,...X_n) \geq c_{\alpha} \text{ if } \theta = \theta^*)=\alpha$$. Then, if we observe $$(x_1,...x_n)$$ we reject the null if $$T(x_1,...,x_n) \geq c_{\alpha}$$.
+Let $$c_{\alpha}$$ be the cutoff at which we reject the null for an $$\alpha$$-level test, i.e. reject the null if $$T(X_1,...X_n) \geq c_{\alpha}$$ and $$\max_{\theta^* \in \Theta_0} P(T(X_1,...X_n) \geq c_{\alpha} \text{ if } \theta = \theta^*)=\alpha$$. Then, if we observe $$(x_1,...x_n)$$ we reject the null if $$T(x_1,...,x_n) \geq c_{\alpha}$$
 
 $$ \implies p(x_1,...x_n) = \max_{\theta^* \in \Theta_0} P(T(X_1,...X_n) \geq T(x_1,...,x_n) \text{ if } \theta = \theta^*)$$
 
@@ -62,3 +62,5 @@ Intuition: Assuming the null is true, what is the probability of getting a test 
 
 ![](/Users/michaelkronovet/Downloads/download (1).png)
 
+### 1 vs 2 sample t-test
+https://stats.idre.ucla.edu/other/mult-pkg/faq/general/faq-what-are-the-differences-between-one-tailed-and-two-tailed-tests/

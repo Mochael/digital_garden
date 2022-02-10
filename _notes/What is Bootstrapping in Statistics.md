@@ -27,3 +27,8 @@ $$\text{test statistic} = \text{difference in MSEs}$$
 - If a linear model is incorrect, then eventually a nonparametric model will beat it (as samples increase).
 
 [Here is a Useful Link that Explains it in more detail](https://towardsdatascience.com/an-introduction-to-the-bootstrap-method-58bcb51b4d60)
+
+
+### PS: What is Bootstrapping in Software Engineering
+1. Bootstrap refers to a popular CSS framework
+2. Bootstrapping also refers to the **starting of a self-sustaining process that is supposed to proceed without external input**

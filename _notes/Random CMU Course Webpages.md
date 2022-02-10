@@ -13,3 +13,4 @@ tree_state: 🌱
 - [Principles of Imperative Computation](https://www.cs.cmu.edu/~15122/)
 - [Parallel and Sequential Data Structures and Algorithms](https://www.cs.cmu.edu/~15210/)
 
+- [Great NYU Resource for Deep Learning](https://atcold.github.io/pytorch-Deep-Learning/)

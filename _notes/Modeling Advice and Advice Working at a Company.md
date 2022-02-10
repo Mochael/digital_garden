@@ -13,3 +13,8 @@ tree_state: 🌱
 	2. Have a plan of what you want to know, why you want to know it, and how you are going to get the information
 7. It's important to do apples to apples comparisons, if you change multiple things at once you can't really isolate the effect you're looking for.
 8. Prioritize your work so that you can be more efficient and do things in parallel. For example, if you want to run an experiment and also implement some feature in production, write the code for the experiment first so that you can run the experiment online while working on implementing that feature into production.
+9. Don't just mention a problem, but bring with it a solution!
+10. Don't just display results, mention conclusions from them
+11. Don't just implement something into production, you should do some easier experimentation with it first to see if it is worth the trouble of implementing for real
+12. When asked how long something should take better to be conservative or say that you don't know and need to look into it to be sure (Isaac says to take the amount of time you think and multiply by 4)
+13. When you're presenting to customer you need quantifiable benefit

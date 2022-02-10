@@ -1,5 +1,5 @@
 ---
-title: How to Read a Path in S3
+title: How to Read a Path in AWS S3
 tree_state: 🌱
 ---
 

@@ -1,6 +1,16 @@
 ---
 title: 5G and WiFi
 tree_state: 🌱
+subtitle: Random subtitle
+author: Michael
+date: 2021-05-16
+header_style: image
+header_img: /img/in-post/new_header1.jpg
+header_mask: rgba(40, 57, 101, .4)
+catalog: true
+tags:
+  - notes
+
 ---
 
 ## How does the Internet Work

@@ -92,3 +92,38 @@ class MyClass(abc.ABC):
 ```
 
 Any class that inherits from `MyClass` is required to declare the functions that have the `@abc.abstractmethod` decorator. We can just specify the types that the function takes, and the functions we declare must have the same types.
+
+## Iterators and Generators
+- an iterable object in python is an object with `__next__()` and `__iter()__` methods (lists, tuples, etc. in python have these methods and are iterable objects)
+- You turn an iterable object into something to actually iterate over with
+`<iterator> =<iterable_obj>.__iter()__`
+- Then you iterate over it with `next(<iterator>)` (this is how for loops were programmed in python)
+
+More detail is here:
+https://www.programiz.com/python-programming/iterator
+
+A generator is a function that returns an iterator, using `yields` instead of return statements
+- You can also make a generator comprehension with
+`a = (x**2 for x in my_list)` gives us a generator object that you can iterate over with `next(a)`
+More detail is here:
+https://www.programiz.com/python-programming/generator
+
+
+### Misc
+
+`getattr()` function
+
+
+## Class Method Underscores
+
+```
+class Foo():
+	def __do_something(self):
+		pass
+```
+
+The use of double underscore (`__`) in front of a method name in python has a specific meaning to the interpreter. Python adds an underscore and then the class name in front of the method name.  For example, `__do_something` becomes `_Foo__do_something`.
+
+
+## kwargs
+kwargs itself is a dictionary. When you call `**kwargs`, it gives you the actual arguments in the format `arg1=2, arg2='hello', ... etc.`

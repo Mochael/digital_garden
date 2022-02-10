@@ -1,6 +1,16 @@
 ---
 title: ARM Processor Architecture
 tree_state: 🌱
+subtitle: Random subtitle
+author: Michael
+date: 2021-05-16
+header_style: image
+header_img: /img/in-post/new_header2.jpg
+header_mask: rgba(40, 57, 101, .4)
+catalog: true
+tags:
+  - notes
+
 ---
 
 Modern software expects to be split into different modules, each with a different level of access to system and processor resources. Exception levels are referred to as `EL<x>`, with x as a number between 0 and 3 and denote the level of priviledge that part of the computer software has.

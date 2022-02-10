@@ -23,3 +23,9 @@ for the $t$ datapoints sorted by largest predicted ITE/Uplift, We calculate
 
 
 - I think it is just cumulative ITE in order of decreasing predicted ITEs 
+
+
+
+Qini curve plots the cumulative uplift across the population. We rank the customers by their predicted uplift on the horizontal axis, and the vertical axis plots the cumulative number of purchases in the treatment group (scaled by the total treatment size) minus the cumulative number of purchases in control (scaled by the total control size).
+
+https://www.ambiata.com/blog/2020-07-07-uplift-modeling/

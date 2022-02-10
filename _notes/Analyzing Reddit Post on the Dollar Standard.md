@@ -1,6 +1,16 @@
 ---
 title: Analyzing Reddit Post on the Dollar Standard
 tree_state: 🌱
+subtitle: Random subtitle
+author: Michael
+date: 2021-05-16
+header_style: image
+header_img: /img/in-post/new_header2.jpg
+header_mask: rgba(40, 57, 101, .4)
+catalog: true
+tags:
+  - notes
+
 ---
 
 - DXY (where Euro to dollar exchange makes up 57.6% of the fund) has shown value of US dollar plummet
