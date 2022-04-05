@@ -22,6 +22,9 @@ tree_state: 🌱
 12. https://mindyourdecisions.com/blog/2019/06/10/how-to-solve-facebooks-raining-in-seattle-interview-question/
 
 
+More questions on expectations [https://www.codechef.com/wiki/tutorial-expectation](https://www.codechef.com/wiki/tutorial-expectation)
+
+
 ### Answers
 
 1. Let's fix all the datapoints to be in the same set, so now we have $ {9-2 \choose 3-2}$ different ways to choose the datapoints for one set and then $ {6 \choose 3}$ ways to select the points for the other sets giving us ${7 \choose 1}{6 \choose 3}$ ways in which the 2 datapoints are in the same set (for one of the sets). We multiply this number by 3 to get the number of ways they can be in any of the sets together. Then, there are ${9 \choose 3}{6 \choose 3}$ different ways of selecting  points for each of the 3 train, val, test splits. So, the final answer is:

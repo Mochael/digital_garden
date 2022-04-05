@@ -1,5 +1,5 @@
 ---
-title: Modeling Advice and Lessons Learned Working at a Company
+title: Data Science Modeling Advice and Some Lessons Learned from Working at a Company
 tree_state: 🌱
 ---
 
