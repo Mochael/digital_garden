@@ -15,7 +15,7 @@ tags:
 
 Modern software expects to be split into different modules, each with a different level of access to system and processor resources. Exception levels are referred to as `EL<x>`, with x as a number between 0 and 3 and denote the level of priviledge that part of the computer software has.
 
-![](Pasted%20image%2020210507202533.png)
+![](../search_pics/arm_el_levels.png)
 
 **Rich OS**: primary operating system of computer
 **Hypervisor**: [[What is a hypervisor]]
