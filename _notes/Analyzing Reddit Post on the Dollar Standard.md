@@ -33,7 +33,7 @@ tags:
 
 
 
-# What Dad Said
+# Dad Commentary
 
 - Foreigners are unable to buy treasuries because the price of the insurance of getting a minimum return from the treasury in the case of the US dollar goes down (and therefore the people in different countries get less of their local currency when they convert the treasury dollars to their local currency) is more than the interest on the treasury since interest rates are so low
   - not sure if this is true
